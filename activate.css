@@ -1,0 +1,82 @@
+
+/* Activate Account Page */
+.activate-container {
+    width: 100%;
+    max-width: 420px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fffaf0;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.activate-container h2 {
+    text-align: center;
+    color: #087f5b;
+    margin-bottom: 25px;
+}
+
+.activate-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.activate-container input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.activate-container input[type="text"]:focus {
+    border-color: #087f5b;
+    box-shadow: 0 0 5px rgba(8, 127, 91, 0.2);
+}
+
+.activate-container button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #087f5b;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.activate-container button:hover {
+    background: #066849;
+}
+
+.activate-container .message {
+    margin-top: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #e5eee9;
+    color: #234b3b;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.activate-container a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #087f5b;
+    text-decoration: none;
+}
+
+.activate-container a:hover {
+    text-decoration: underline;
+}
